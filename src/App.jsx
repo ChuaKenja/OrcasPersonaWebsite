@@ -65,7 +65,7 @@ function MenuScreen() {
       <BackgroundVideo intro={menuVideo} loop={menuLoopVideo} />
       <P3Menu onNavigate={(page) => {
         if (page === 'github') {
-          window.open('https://github.com/OrcaStorm', '_blank', 'noopener,noreferrer')
+          window.open('https://github.com/ChuaKenja', 'noopener,noreferrer')
         } else {
           navigate(`/${page}`)
         }
@@ -94,7 +94,7 @@ function SideProjectsPage() {
       try {
         setLoading(true)
         setError(null)
-        const response = await fetch('https://api.github.com/users/OrcaStorm/repos?sort=stars&per_page=6')
+        const response = await fetch('https://api.github.com/users/ChuaKenja/repos?sort=stars&per_page=6')
         if (!response.ok) throw new Error('Failed to fetch projects')
         const data = await response.json()
         setProjects(data && Array.isArray(data) ? data : [])
@@ -102,8 +102,8 @@ function SideProjectsPage() {
         console.error('Error fetching projects:', err)
         setError('Unable to load projects at this time')
         setProjects([
-          { name: 'AI/ML Repository', language: 'Python', stargazers_count: 5, forks_count: 2, size: 1024, html_url: 'https://github.com/OrcaStorm' },
-          { name: 'Web Portfolio', language: 'React', stargazers_count: 1, forks_count: 0, size: 2048, html_url: 'https://github.com/OrcaStorm' },
+          { name: 'AI/ML Repository', language: 'Python', stargazers_count: 5, forks_count: 2, size: 1024, html_url: 'https://github.com/ChuaKenja' },
+          { name: 'Web Portfolio', language: 'React', stargazers_count: 1, forks_count: 0, size: 2048, html_url: 'https://github.com/ChuaKenja' },
         ])
       } finally {
         setLoading(false)
@@ -452,7 +452,7 @@ function SideProjectsPage() {
                 className="sc-bar"
                 onClick={() => {
                   setActive(idx);
-                  window.open(proj.html_url || "https://github.com/OrcaStorm", "_blank");
+                  window.open(proj.html_url || "https://github.com/ChuaKenja", "_blank");
                 }}
               >
                 <div className="sc-bar-fill" />
@@ -487,7 +487,7 @@ function SideProjectsPage() {
                 </div>
               </a>
               <a
-                href="https://github.com/OrcaStorm"
+                href="https://github.com/ChuaKenja"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="p3-row-clone"

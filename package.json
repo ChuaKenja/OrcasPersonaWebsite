@@ -4,10 +4,10 @@
   "version": "1.0.0",
   "description": "OrcaStorm's Persona 3 themed portfolio website",
   "author": "OrcaStorm",
-  "homepage": "https://orcastorm.github.io/persona3-portfolio",
+  "homepage": "https://orcastorm.github.io/OrcasPersonaWebsite/",
   "repository": {
     "type": "git",
-    "url": "https://github.com/OrcaStorm/persona3-portfolio.git"
+    "url": "https://github.com/OrcaStorm/OrcasPersonaWebsite.git"
   },
   "keywords": [
     "portfolio",

@@ -34,7 +34,7 @@ A highly customized, interactive portfolio inspired by the **Persona 3 UI**. Thi
 
 ```bash
 # Clone the repository
-git clone https://github.com/OrcaStorm/persona3-portfolio.git
+git clone https://github.com/ChuaKenja/persona3-portfolio.git
 
 # Navigate to project directory
 cd persona3-portfolio
@@ -121,3 +121,4 @@ Visit the live portfolio: [OrcaStorm's Portfolio](https://orcastorm.github.io/pe
 ---
 
 *Built with ❤️ and inspired by Persona 3*
+# is going to be ripped apart by me so i can learn vite 8

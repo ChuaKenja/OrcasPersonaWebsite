@@ -16,6 +16,6 @@ git add -A
 git commit -m 'Deploy to GitHub Pages'
 
 # Push to gh-pages branch
-git push -f git@github.com:OrcaStorm/persona3-portfolio.git main:gh-pages
+git push -f git@github.com:ChuaKenja/OrcasPersonaWebsite.git main:gh-pages
 
-cd -
+cd .. # Return to the root directory

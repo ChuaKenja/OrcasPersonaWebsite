@@ -9,7 +9,7 @@ if /I "%~1"=="--dry-run" set "DRY_RUN=1"
 
 echo.
 echo ========================================
-echo   OrcaStorm - Portfolio Launcher
+echo   ChuaKenja - Portfolio Launcher
 echo ========================================
 echo.
 echo Project Directory: %PROJECT_DIR%

@@ -9,6 +9,9 @@ const ITEMS = [
   { id: "iv", badge: "IV", title: "LEARNING", subtitle: "Current Focus", rank: 10 },
 ];
 
+const TECH_STATUS = ["Moderate", "Advance", "Moderate"];
+const TOOL_STATUS = ["Advanced", "Proficient"];
+
 export default function ResumePage({ src }) {
   const navigate = useNavigate();
   const [active, setActive] = useState(0);
@@ -31,7 +34,7 @@ export default function ResumePage({ src }) {
       } catch (error) {
         console.error('Error fetching GitHub data:', error);
         setRepos([
-          { index: "01", title: "OrcaStorm Portfolio", status: "React" },
+          { index: "01", title: "ChuaKenja Portfolio", status: "React" },
           { index: "02", title: "Python Projects", status: "Python" },
           { index: "03", title: "JavaScript Apps", status: "JavaScript" },
           { index: "04", title: "Learning Repository", status: "Python" },
@@ -475,14 +478,14 @@ export default function ResumePage({ src }) {
                 <div className="resume-detail-row" key={idx}>
                   <div className="resume-detail-row-index">{String(idx + 1).padStart(2, '0')}</div>
                   <div className="resume-detail-row-title">{lang}</div>
-                  <div className="resume-detail-status">Advanced</div>
+                  <div className="resume-detail-status">{TECH_STATUS[idx % TECH_STATUS.length]}</div>
                 </div>
               ))}
               {profile.techStack.tools.slice(0, 2).map((tool, idx) => (
                 <div className="resume-detail-row" key={`tool-${idx}`}>
                   <div className="resume-detail-row-index">{String(profile.techStack.languages.length + idx + 1).padStart(2, '0')}</div>
                   <div className="resume-detail-row-title">{tool}</div>
-                  <div className="resume-detail-status">Proficient</div>
+                  <div className="resume-detail-status">{TOOL_STATUS[idx % TOOL_STATUS.length]}</div>
                 </div>
               ))}
             </div>

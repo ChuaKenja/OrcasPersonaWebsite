@@ -20,29 +20,29 @@ const ROLES = [
 
 const ITEMS = [
   {
-    id: "github", label: "GITHUB", handle: "@OrcaStorm", href: "https://github.com/OrcaStorm", icon: "🐙", barIcon: icon1,
+    id: "github", label: "GITHUB", handle: `@${profile.links[0].short}`, href: `${profile.links[0].href}`, icon: "🐙", barIcon: icon1,
     details: [
-      { label: "USER", value: "OrcaStorm", icon: "👤" },
-      { label: "ROLE", value: "Masterclass Developer", icon: "🤖" },
-      { label: "LOC", value: "California, United States", icon: "📍" }
+      { label: "USER", value: `${profile.username}`, icon: "👤" },
+      { label: "ROLE", value: `${profile.title}`, icon: "🤖" },
+      { label: "LOC", value: `${profile.location}`, icon: "📍" }
     ],
     stats: [],
   },
   {
-    id: "youtube", label: "YOUTUBE", handle: "CreamyOrca", href: "https://www.youtube.com/@IGNCreamyOrca", icon: "�", barIcon: icon2,
+    id: "youtube", label: "YOUTUBE", handle: `@${profile.links[1].short}`, href: `${profile.links[1].href}`, icon: "", barIcon: icon2,
     details: [
-      { label: "USER", value: "CreamyOrca", icon: "👤" },
+      { label: "USER", value: `${profile.links[1].short}`, icon: "👤" },
       { label: "TYPE", value: "Content Creator", icon: "🎬" },
       { label: "STAT", value: "Active", icon: "✨" }
     ],
     stats: [],
   },
   {
-    id: "instagram", label: "INSTAGRAM", handle: "justlovinwhales", href: "https://www.instagram.com/justlovinwhales", icon: "📷", barIcon: icon3,
+    id: "instagram", label: "INSTAGRAM", handle: "Unknown", href: "Error404", icon: "📷", barIcon: icon3,
     details: [
-      { label: "USER", value: "OrcaStorm", icon: "👤" },
-      { label: "TYPE", value: "Personal", icon: "🎨" },
-      { label: "STAT", value: "Active", icon: "🔥" }
+      { label: "USER", value: "Null", icon: "👤" },
+      { label: "TYPE", value: "Null", icon: "🎨" },
+      { label: "STAT", value: "Inactive", icon: "🔥" }
     ],
     stats: [],
   },

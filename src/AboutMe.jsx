@@ -23,7 +23,7 @@ const REVEAL_CONTENT = [
   {
     upper: [
       `Languages: ${profile.techStack.languages.join(', ')}`,
-      `Tools: ${profile.techStack.tools.slice(0, 3).join(', ')}`,
+      `Tools: ${profile.techStack.tools.slice(0, 4).join(', ')}`,
       `AI/ML: ${profile.techStack.ai.slice(0, 2).join(', ')}`,
     ],
     lower: profile.quickFacts.find(fact => fact.label === "Approach")?.value || "Build things to understand them",
@@ -35,9 +35,9 @@ const REVEAL_CONTENT = [
 ];
 
 const ROLES = [
-  { text: "LEADER", color: "#e8c100", bg: "rgba(232,193,0,0.12)", border: "rgba(232,193,0,0.5)" },
-  { text: "PARTY", color: "#4a8fff", bg: "rgba(74,143,255,0.12)", border: "rgba(74,143,255,0.5)" },
-  { text: "PARTY", color: "#4a8fff", bg: "rgba(74,143,255,0.12)", border: "rgba(74,143,255,0.5)" },
+  { text: "LEADER"},
+  { text: "PARTY"},
+  { text: "PARTY"},
 ];
 
 const ITEMS = [

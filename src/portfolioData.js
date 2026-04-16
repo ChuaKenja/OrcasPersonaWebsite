@@ -1,71 +1,64 @@
 export const profile = {
-  name: "Justin Minh Nguyen",
-  username: "OrcaStorm",
-  title: "BGHS Junior",
-  bio: "BGHS Junior, President of BGHS CHOC and BGHS CyberPatriots. Intermediate Developer",
+  name: "TestDummy",
+  username: "ChuaKenja",
+  title: "Feshman in Collage",
+  bio: "Just picking up random skills",
   intro:
-    "High School Student focused on building a portfolio and seeking real world experiences.",
-  location: "California, United States",
+    "Collage student passionate about building robots",
+  location: "Louisiana, United States",
   accountCreated: "October 10, 2025",
   lastUpdated: "March 21, 2026",
   stats: [
-    { label: "Public Repos", value: "12" },
-    { label: "Contributions", value: "24" },
+    { label: "Public Repos", value: "1" },
+    { label: "Contributions", value: "??" },
     { label: "Followers", value: "0" },
-    { label: "Primary Focus", value: "Legacy Impact / Hardware" },
+    { label: "Primary Focus", value: "Robotics and Automation" },
   ],
   quickFacts: [
     { label: "Languages", value: "Python, JavaScript" },
     { label: "Approach", value: "Build things to understand them" },
-    { label: "Currently", value: "Mastering Python, Beginning JavaScript, Creating Physical Artifacts" },
-    { label: "GitHub", value: "@OrcaStorm" },
+    { label: "Currently", value: "Mastering Python, Beginning JavaScript, Building Robots" },
+    { label: "GitHub", value: "@ChuaKenja" },
   ],
   learning: [
-    "Lang, Calculus AB, Linux",
-    "Pandas dataframes, cleaning, and analysis",
+    "Physics, Calculus 2, Linux",
+    "Robotics fundamentals and hands-on projects",
     "AI generative tools, cyber security, hacking",
     "Machine learning fundamentals and model intuition",
   ],
   techStack: {
-    languages: ["Python", "JavaScript"],
-    ai: ["Kiro", "Replit", "Copilot", "Firebase"],
+    languages: ["Python", "JavaScript", "HTML/CSS"],
+    ai: ["Copilot"],
     data: ["NumPy", "Pandas", "Matplotlib"],
-    tools: ["Git", "VS Code", "Kiro", "Replit", "Linux Terminal"],
+    tools: ["Git", "VS Code", "Windows PowerShell", "Linux (Ubuntu)"],
   },
   links: [
-    { label: "GitHub", href: "https://github.com/OrcaStorm", short: "@OrcaStorm" },
+    { label: "GitHub", href: "https://github.com/ChuaKenja", short: "@ChuaKenja" },
     {
       label: "Youtube",
-      href: "https://www.youtube.com/@IGNCreamyOrca",
-      short: "CreamyOrca",
-    },
-    {
-      label: "Instagram",
-      href: "https://www.instagram.com/justlovinwhales",
-      short: "@justlovinwhales",
-    },
+      href: "https://www.youtube.com/@ChuaKenja",
+      short: "ChuaKenja",
+    }
   ],
 };
 
 export const projects = [
   {
-    name: "OrcaStorm",
+    name: "Project offgrid",
     description:
-      "Public profile repository used as a living introduction, with current learning areas, stack badges, and social links.",
-    href: "https://github.com/OrcaStorm",
-    repoMeta: ["Public", "MIT License", "Updated April 15, 2026"],
+      "Creating internal systems that run without any subscription services or external APIs, to learn how to build and maintain projects independently.",
     highlights: [
-      "Documents progress in JavaScript journey",
-      "Surfaces current stack across Python, JavaScript, ML, data, and tooling",
-      "Acts as the most current public project footprint for this account",
+      "I've Created my own google drive",
+      "Built a custom AI assistant that runs locally on my machine",
+      "I built a personal website and blog using only static HTML, CSS, and JavaScript",
     ],
   },
 ];
 
 export const contributionSummary = {
-  headline: "24 contributions in the last year",
+  headline: "??? contributions in the last year",
   notes: [
     "Recent public activity is concentrated around setting up and updating the GitHub profile repository.",
-    "The profile account is new, so the portfolio now emphasizes learning momentum and fundamentals over inflated project counts.",
+    "The profile account is old, and since i mostly use private repositories, the contribution graph doesn't reflect my actual coding activity.",
   ],
 };

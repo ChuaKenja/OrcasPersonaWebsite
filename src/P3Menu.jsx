@@ -1,4 +1,5 @@
 import { useState, useEffect } from "react";
+import { profile } from "./portfolioData";
 
 const ITEMS = [
   { id: "about", label: "ABOUT ME", page: "about", fontSize: 80, offsetX: 0, offsetY: 0, skew: -6, skewY: 10 },
@@ -216,7 +217,7 @@ export default function P3Menu({ onNavigate }) {
 
       <div className="p3-overlay">
         <div className="p3-name-tag">
-          <span>OrcaStorm's</span>
+          <span>{profile.username}'s</span>
           <span>Persona</span>
         </div>
         <div className="p3-stripe" />
