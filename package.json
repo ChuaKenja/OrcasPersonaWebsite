@@ -9,6 +9,10 @@
     "type": "git",
     "url": "https://github.com/OrcaStorm/OrcasPersonaWebsite.git"
   },
+  "packageManager": "npm@10.0.0",
+  "engines": {
+    "node": ">=24.0.0"
+  },
   "keywords": [
     "portfolio",
     "persona3",
