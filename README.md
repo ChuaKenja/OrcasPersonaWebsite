@@ -1,4 +1,4 @@
-# 🌊 OrcaStorm's Persona | Cyber-Laboratory UI
+# 🌊 ChuaKenja's Persona | Cyber-Laboratory UI
 
 <p align="left">
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=00F2FF&width=435&lines=Persona+3+Themed+Portfolio" alt="Typing SVG" />
